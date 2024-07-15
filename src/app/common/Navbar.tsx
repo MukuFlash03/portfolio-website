@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
-import logoFlash from '@/app/assets/flash-logo.png'
+// import logoFlash from '@/app/assets/flash-logo.png'
+import logoFlash from '@/app/assets/flash.svg'
 
 const Navbar: React.FC = () => {
   const navItems = {

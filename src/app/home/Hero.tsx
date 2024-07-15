@@ -1,19 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import avatar from '@/app/assets/avatar_1.svg'
-import linkedin from '@/app/assets/contact/linkedin.svg'
-import github from '@/app/assets/contact/github.svg'
-import gmail from '@/app/assets/contact/gmail.svg'
-import wordpress from '@/app/assets/contact/wordpress.svg'
+import contactsData from '@/app/lib/data/contacts'
 
 const Hero: React.FC = () => {
-  const socialLinks = [
-    { name: 'LinkedIn', icon: linkedin, url: 'https://www.linkedin.com/in/mukulm03', width: 55, height: 55 },
-    { name: 'GitHub', icon: github, url: 'https://github.com/MukuFlash03', width: 55, height: 55 },
-    { name: 'Gmail', icon: gmail, url: 'mailto:mukulm2010@gmail.com', width: 55, height: 48 },
-    { name: 'Wordpress', icon: wordpress, url: 'https://mukulcodes.wordpress.com/', width: 55, height: 55 },
-  ];
-
   return (
     <section className="flex-grow w-full">
       <div className="w-full flex-grow flex flex-col items-start space-y-2.5 px-24">
@@ -29,13 +19,13 @@ const Hero: React.FC = () => {
               </ul>
             </div>
             <div className="w-full flex-grow flex items-baseline justify-center space-x-20 px-5">
-              {socialLinks.map((link) => (
-                <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer">
+              {contactsData.map((contact, index) => (
+                <a key={index} href={contact.url} target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={link.icon}
-                    width={link.width}
-                    height={link.height}
-                    alt={`${link.name} logo`}
+                    src={contact.logo}
+                    width={contact.width}
+                    height={contact.height}
+                    alt={`${contact.name} logo`}
                   />
                 </a>
               ))}
@@ -59,7 +49,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 

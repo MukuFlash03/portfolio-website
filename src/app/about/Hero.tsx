@@ -25,7 +25,6 @@ const Hero: React.FC = () => {
                     <strong>👋 About Me</strong><br />
                   </div>
                   <ul className="w-full h-full text-left list-disc list-outside space-y-2">
-                    {/* <ul className="w-full text-left text-[20px] leading-[40px] font-medium text-[#E3E3E3] list-disc list-outside space-y-4"> */}
                     <li>Recent Computer Science Master&apos;s graduate with a passion for backend applications and a keen interest in CI/CD, DevOps, Cloud technologies, and Full-stack development, including integrating Large Language Models (LLMs) for Generative AI applications.</li>
                     <li>Proficient in Python, TypeScript, C++, Java, and adept at leveraging a wide array of frameworks and tools to drive innovative solutions.</li>
                     <li>Experienced in scaling systems, optimizing performance, and automating deployment processes.</li>
@@ -36,7 +35,6 @@ const Hero: React.FC = () => {
                   <div className="flex justify-center w-full">
                     <strong>🛠️ Technical Skills</strong><br />
                   </div>
-                  {/* <strong className='flex justify-center w-full'>🛠️ Technical Skills</strong><br /> */}
                   <ul className="w-full h-full text-left list-disc list-outside space-y-2">
                     <li>From Java, Python, C++, TypeScript to Express and Flask, I thrive in diverse tech environments.</li>
                     <li>Proficient in handling databases like Oracle SQL and MongoDB, and adept at architecting REST APIs, Microservices.</li>
