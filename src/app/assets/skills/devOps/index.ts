@@ -1,25 +1,13 @@
-import cpp from '@/app/assets/skills/languages/cpp.svg'
-import css from '@/app/assets/skills/languages/css.svg'
-import html from '@/app/assets/skills/languages/html.svg'
-import java from '@/app/assets/skills/languages/java.svg'
-import javascript from '@/app/assets/skills/languages/js.svg'
-import python from '@/app/assets/skills/languages/python.svg'
-import sql from '@/app/assets/skills/languages/sql.svg'
-import typescript from '@/app/assets/skills/languages/ts.svg'
-import yaml from '@/app/assets/skills/languages/yaml.svg'
+import docker from '@/app/assets/skills/devOps/docker.svg'
+import ghActions from '@/app/assets/skills/devOps/ghActions.svg'
+import github from '@/app/assets/skills/devOps/github.svg'
 
-const languageLogos: { 
-  [key: string]: string 
+const devOpsLogos: {
+  [key: string]: string
 } = {
-  cpp,
-  css,
-  html,
-  java,
-  javascript,
-  python,
-  sql,
-  typescript,
-  yaml,
+  docker,
+  ghActions,
+  github,
 }
 
-export default languageLogos
+export default devOpsLogos

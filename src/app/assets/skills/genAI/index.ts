@@ -1,25 +1,19 @@
-import cpp from '@/app/assets/skills/languages/cpp.svg'
-import css from '@/app/assets/skills/languages/css.svg'
-import html from '@/app/assets/skills/languages/html.svg'
-import java from '@/app/assets/skills/languages/java.svg'
-import javascript from '@/app/assets/skills/languages/js.svg'
-import python from '@/app/assets/skills/languages/python.svg'
-import sql from '@/app/assets/skills/languages/sql.svg'
-import typescript from '@/app/assets/skills/languages/ts.svg'
-import yaml from '@/app/assets/skills/languages/yaml.svg'
+import anthropic from '@/app/assets/skills/genAI/anthropic.svg'
+import deepgram from '@/app/assets/skills/genAI/deepgram.svg'
+import langchain from '@/app/assets/skills/genAI/langchain.svg'
+import multion from '@/app/assets/skills/genAI/multion.svg'
+import openai from '@/app/assets/skills/genAI/openai.svg'
+import streamlit from '@/app/assets/skills/genAI/streamlit.svg'
 
-const languageLogos: { 
-  [key: string]: string 
+const genAILogos: {
+  [key: string]: string
 } = {
-  cpp,
-  css,
-  html,
-  java,
-  javascript,
-  python,
-  sql,
-  typescript,
-  yaml,
+  anthropic,
+  deepgram,
+  langchain,
+  multion,
+  openai,
+  streamlit,
 }
 
-export default languageLogos
+export default genAILogos

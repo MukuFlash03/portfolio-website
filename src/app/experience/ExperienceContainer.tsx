@@ -8,6 +8,7 @@ const ExperienceContainer: React.FC = () => {
       {experienceData.map((experience, index) => (
         <ExperienceCard
           key={index}
+          id={index}
           experience={experience}
         />
       ))}

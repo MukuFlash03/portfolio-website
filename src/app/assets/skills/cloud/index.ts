@@ -1,25 +1,27 @@
-import cpp from '@/app/assets/skills/languages/cpp.svg'
-import css from '@/app/assets/skills/languages/css.svg'
-import html from '@/app/assets/skills/languages/html.svg'
-import java from '@/app/assets/skills/languages/java.svg'
-import javascript from '@/app/assets/skills/languages/js.svg'
-import python from '@/app/assets/skills/languages/python.svg'
-import sql from '@/app/assets/skills/languages/sql.svg'
-import typescript from '@/app/assets/skills/languages/ts.svg'
-import yaml from '@/app/assets/skills/languages/yaml.svg'
+import aws from '@/app/assets/skills/cloud/aws.svg'
+import cloudwatch from '@/app/assets/skills/cloud/cloudwatch.svg'
+import ec2 from '@/app/assets/skills/cloud/ec2.svg'
+import ecr from '@/app/assets/skills/cloud/ecr.svg'
+import iam from '@/app/assets/skills/cloud/iam.svg'
+import inspector from '@/app/assets/skills/cloud/inspector.svg'
+import lambda from '@/app/assets/skills/cloud/lambda.svg'
+import openstack from '@/app/assets/skills/cloud/openstack.svg'
+import s3 from '@/app/assets/skills/cloud/s3.svg'
+import sqs from '@/app/assets/skills/cloud/sqs.svg'
 
-const languageLogos: { 
-  [key: string]: string 
+const cloudLogos: {
+  [key: string]: string
 } = {
-  cpp,
-  css,
-  html,
-  java,
-  javascript,
-  python,
-  sql,
-  typescript,
-  yaml,
+  aws,
+  cloudwatch,
+  ec2,
+  ecr,
+  iam,
+  inspector,
+  lambda,
+  openstack,
+  s3,
+  sqs,
 }
 
-export default languageLogos
+export default cloudLogos

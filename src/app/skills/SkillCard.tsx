@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 const Card: React.FC<{
   key: number;
+  id: number;
   category: string;
   skills: {
     name: string;
@@ -10,12 +11,13 @@ const Card: React.FC<{
   }[]
 }> = ({
   key,
+  id,
   category,
   skills
 }) => {
 
     return (
-      <div key={key} className="w-full min-h-[126px] flex bg-[#182546] mb-5 py-[13px] rounded-lg">
+      <div key={id} className="w-full min-h-[126px] flex bg-[#182546] mb-5 py-[13px] rounded-lg">
         <div className="w-[195px] h-[94px] flex items-center justify-center px-[27px]">
           <h3 className="text-[18px] font-semibold text-[#E3E3E3] text-center">{category}</h3>
         </div>

@@ -8,6 +8,7 @@ const SkillContainer: React.FC = () => {
       {skillsData.map((skillset, index) => (
         <SkillCard
           key={index}
+          id={index}
           category={skillset.category}
           skills={skillset.skills}
         />

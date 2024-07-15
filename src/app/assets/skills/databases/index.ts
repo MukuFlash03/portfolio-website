@@ -1,25 +1,15 @@
-import cpp from '@/app/assets/skills/languages/cpp.svg'
-import css from '@/app/assets/skills/languages/css.svg'
-import html from '@/app/assets/skills/languages/html.svg'
-import java from '@/app/assets/skills/languages/java.svg'
-import javascript from '@/app/assets/skills/languages/js.svg'
-import python from '@/app/assets/skills/languages/python.svg'
-import sql from '@/app/assets/skills/languages/sql.svg'
-import typescript from '@/app/assets/skills/languages/ts.svg'
-import yaml from '@/app/assets/skills/languages/yaml.svg'
+import dynamodb from '@/app/assets/skills/databases/dynamodb.svg'
+import mongodb from '@/app/assets/skills/databases/mongodb.svg'
+import oracle from '@/app/assets/skills/databases/oracle.svg'
+import postgres from '@/app/assets/skills/databases/postgres.svg'
 
-const languageLogos: { 
-  [key: string]: string 
+const databaseLogos: {
+  [key: string]: string
 } = {
-  cpp,
-  css,
-  html,
-  java,
-  javascript,
-  python,
-  sql,
-  typescript,
-  yaml,
+  dynamodb,
+  mongodb,
+  oracle,
+  postgres,
 }
 
-export default languageLogos
+export default databaseLogos

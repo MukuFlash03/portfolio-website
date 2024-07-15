@@ -2,6 +2,7 @@ import React from 'react'
 
 const ExperienceCard: React.FC<{
   key: number,
+  id: number,
   experience: {
     company: string
     title: string
@@ -13,10 +14,11 @@ const ExperienceCard: React.FC<{
   }
 }> = ({
   key,
+  id,
   experience
 }) => {
     return (
-      <div key={key} className="w-full min-h-[216px] flex bg-[#182546] px-5 rounded-[10px]">
+      <div key={id} className="w-full min-h-[216px] flex bg-[#182546] px-5 rounded-[10px]">
         <div className="flex-grow w-[70%] h-full flex flex-col items-start space-y-2.5 py-5 pr-8">
           <h3 className="text-[16px] font-medium text-[#57D7D5]">{experience.title} @ {experience.company}</h3>
           <p className="text-[15px] font-medium text-[#B7BEBE]">{experience.role}</p>
