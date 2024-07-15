@@ -1,6 +1,4 @@
-interface AboutSection {
+export interface AboutSection {
     title: string
     description: string[]
 }
-
-export default AboutSection

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutSection from "../lib/types/about";
+import { AboutSection } from "../lib/types/about";
 
 const About: React.FC<{
   aboutData: AboutSection[]

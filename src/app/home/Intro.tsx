@@ -1,5 +1,5 @@
 import React from "react";
-import IntroData from "@/app/lib/types/intro";
+import { IntroData } from "@/app/lib/types/intro";
 
 const Intro: React.FC<{
   introData: IntroData

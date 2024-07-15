@@ -1,4 +1,4 @@
-interface Experience {
+export interface Experience {
     company: string;
     title: string;
     role: string;
@@ -7,5 +7,3 @@ interface Experience {
     skills: string[];
     description: string[];
 }
-
-export default Experience;

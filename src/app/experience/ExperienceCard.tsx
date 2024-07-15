@@ -1,5 +1,5 @@
 import React from 'react'
-import Experience from '@/app/lib/types/experience'
+import { Experience } from '@/app/lib/types/experience'
 
 const ExperienceCard: React.FC<{
   key: number,

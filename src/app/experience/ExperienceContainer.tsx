@@ -1,6 +1,6 @@
 import React from 'react'
 import ExperienceCard from './ExperienceCard'
-import Experience from '@/app/lib/types/experience'
+import { Experience } from '@/app/lib/types/experience'
 
 const ExperienceContainer: React.FC<{
   experienceData: Experience[]
