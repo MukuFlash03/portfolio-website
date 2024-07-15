@@ -26,12 +26,12 @@ const skillsData: SkillCategory[] = [
   {
     category: 'Frameworks',
     skills: [
-      { name: 'Express', logo: frameworkLogos.express },
-      { name: 'Flask', logo: frameworkLogos.flask },
-      { name: 'Next.js', logo: frameworkLogos.next },
-      { name: 'Node.js', logo: frameworkLogos.node },
-      { name: 'React', logo: frameworkLogos.react },
       { name: 'REST', logo: frameworkLogos.rest },
+      { name: 'Express', logo: frameworkLogos.express },
+      { name: 'React', logo: frameworkLogos.react },
+      { name: 'Node.js', logo: frameworkLogos.node },
+      { name: 'Next.js', logo: frameworkLogos.next },
+      { name: 'Flask', logo: frameworkLogos.flask },
       // { name: 'Spring Boot', logo: frameworkLogos.spring },
     ],
   },
