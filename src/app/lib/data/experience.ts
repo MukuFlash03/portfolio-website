@@ -1,4 +1,6 @@
-const experienceData = [
+import Experience from "@/app/lib/types/experience";
+
+const experienceData: Experience[] = [
   {
     company: 'National Renewable Energy Laboratory (NREL)',
     title: 'Software Engineer Intern',

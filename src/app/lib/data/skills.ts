@@ -6,7 +6,9 @@ import devOpsLogos from '@/app/assets/skills/devOps';
 import databaseLogos from '@/app/assets/skills/databases';
 import cloudLogos from '@/app/assets/skills/cloud';
 
-const skillsData = [
+import { SkillCategory } from '@/app/lib/types/skills';
+
+const skillsData: SkillCategory[] = [
   {
     category: 'Languages',
     skills: [
@@ -30,7 +32,7 @@ const skillsData = [
       { name: 'Node.js', logo: frameworkLogos.node },
       { name: 'React', logo: frameworkLogos.react },
       { name: 'REST', logo: frameworkLogos.rest },
-      { name: 'Spring Boot', logo: frameworkLogos.spring },
+      // { name: 'Spring Boot', logo: frameworkLogos.spring },
     ],
   },
   {

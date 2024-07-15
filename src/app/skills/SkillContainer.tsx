@@ -1,20 +1,23 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-import skillsData from '@/app/lib/data/skills'
+import { SkillCategory } from '@/app/lib/types/skills'
 
-const SkillContainer: React.FC = () => {
-  return (
-    <div className="w-full flex-grow px-[10px]">
-      {skillsData.map((skillset, index) => (
-        <SkillCard
-          key={index}
-          id={index}
-          category={skillset.category}
-          skills={skillset.skills}
-        />
-      ))}
-    </div>
-  )
-}
+const SkillContainer: React.FC<{
+  skillsData: SkillCategory[]
+}> = ({
+  skillsData,
+}) => {
+    return (
+      <div className="w-full flex-grow px-[10px]">
+        {skillsData.map((skillset, index) => (
+          <SkillCard
+            key={index}
+            id={index}
+            skillset={skillset}
+          />
+        ))}
+      </div>
+    )
+  }
 
 export default SkillContainer

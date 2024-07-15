@@ -1,21 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import { SkillCategory } from '@/app/lib/types/skills';
 
-const Card: React.FC<{
+const SkillCard: React.FC<{
   key: number;
   id: number;
-  category: string;
-  skills: {
-    name: string;
-    logo: string
-  }[]
+  skillset: SkillCategory
 }> = ({
-  key,
   id,
-  category,
-  skills
+  skillset: { category, skills },
 }) => {
-
     return (
       <div key={id} className="w-full min-h-[126px] flex bg-[#182546] mb-5 py-[13px] rounded-lg">
         <div className="w-[195px] h-[94px] flex items-center justify-center px-[27px]">
@@ -44,4 +38,4 @@ const Card: React.FC<{
     )
   }
 
-export default Card
+export default SkillCard

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image'
-// import logoFlash from '@/app/assets/flash-logo.png'
 import logoFlash from '@/app/assets/flash.svg'
 
 const Navbar: React.FC = () => {
@@ -28,8 +27,6 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    // <main>
-    // <nav className="bg-white border-gray-200 dark:bg-gray-900">
     <main>
       <div className="w-full h-[122px] flex flex-col items-center justify-center space-y-10 px-24 py-4">
         <div className="w-full h-[90px] flex flex-row items-center justify-between px-2.5 mx-24">
