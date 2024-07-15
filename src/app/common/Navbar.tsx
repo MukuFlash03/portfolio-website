@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image'
 import logoFlash from '@/app/assets/flash.svg'
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   const navItems = {
@@ -53,9 +54,12 @@ const Navbar: React.FC = () => {
         </div>
         <div className="hidden md:flex space-x-3.5">
           {Object.entries(navItems).map(([key, item]) => (
-            <a key={key} href={item.link} className="text-[14px] sm:text-[18px] leading-[40px] font-medium text-[#E3E3E3]">
+            // <a key={key} href={item.link} className="text-[14px] sm:text-[18px] leading-[40px] font-medium text-[#E3E3E3]">
+            //   {item.label}
+            // </a>
+            <Link key={key} href={item.link} className="text-[14px] sm:text-[18px] leading-[40px] font-medium text-[#E3E3E3]">
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="md:hidden">

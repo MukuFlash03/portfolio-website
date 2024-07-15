@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Project } from '@/app/lib/types/project';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import Link from "next/link";
 
 const ProjectCard: React.FC<{
   index: number,
@@ -49,9 +50,9 @@ const ProjectCard: React.FC<{
             <p className="text-xs sm:text-sm text-gray-300">
               <span className="font-semibold text-blue-400">Tech Stack:</span> {project.tags.join(', ')}
             </p>
-            <a href={project.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block">
+            <Link href={project.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block">
               <FaExternalLinkAlt className="text-white text-lg sm:text-2xl hover:text-blue-400 transition-colors duration-300" />
-            </a>
+            </Link>
           </div>
         </div>
       </div >

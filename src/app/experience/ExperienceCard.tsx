@@ -1,6 +1,7 @@
 import React from 'react'
 import { Experience } from '@/app/lib/types/experience'
 import { FaExternalLinkAlt } from 'react-icons/fa'
+import Link from 'next/link'
 
 const ExperienceCard: React.FC<{
   key: number,
@@ -17,9 +18,9 @@ const ExperienceCard: React.FC<{
             {experience.title}
             <span className='text-[#E3E3E3]'> @ </span>
             {experience.company}
-            <a href={experience.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block">
+            <Link href={experience.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block">
               <FaExternalLinkAlt className="text-white text-base hover:text-blue-400 transition-colors duration-300" />
-            </a>
+            </Link>
           </h3>
           <p className="text-[15px] font-medium text-[#B7BEBE]">{experience.role}</p>
           <ul className="text-[14px] text-[#879BBD] list-disc pl-5">
