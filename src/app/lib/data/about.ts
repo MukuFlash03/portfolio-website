@@ -1,18 +1,19 @@
-import AboutSection from "@/app/lib/types/about"
+import { AboutSection } from "@/app/lib/types/about"
 
 const aboutData: AboutSection[] = [
   {
     title: '👋 About Me',
     description: [
-      'Recent Computer Science Master\'s graduate with a passion for backend applications and a keen interest in CI/CD, DevOps, Cloud technologies, and Full-stack development, including integrating Large Language Models (LLMs) for Generative AI applications.',
-      'Proficient in Python, TypeScript, C++, Java, and adept at leveraging a wide array of frameworks and tools to drive innovative solutions.',
-      'Experienced in scaling systems, optimizing performance, and automating deployment processes.',
+      'Recently graduated from Arizona State University with a Master\'s in Computer Science',
+      'Currently based in San Francisco, actively attending tech talks, meetups, networking events, and meeting with different startup founders.',
+      'Open to connecting with developers, recruiters, founders and actively seeking job opportunities to contribute to.',
     ],
   },
   {
     title: '🛠️ Technical Skills',
     description: [
       'From Java, Python, C++, TypeScript to Express and Flask, I thrive in diverse tech environments.',
+      'Experienced in handling large codebases, completing feature requests, and automating deployment processes.',
       'Proficient in handling databases like Oracle SQL and MongoDB, and adept at architecting REST APIs, Microservices.',
       'Comfortable navigating Cloud platforms such as AWS and Kubernetes, and well-versed in developer tools like Git, Docker.',
       'Exploring the world of full-stack development and integrating RAG chain LLMs for building Generative AI applications.',

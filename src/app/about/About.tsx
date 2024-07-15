@@ -16,7 +16,7 @@ const About: React.FC<{
                 <div className="flex justify-center w-full">
                   {data.title}
                 </div>
-                <ul className="w-full h-full text-base text-[#8BA4D0] text-left list-disc list-outside space-y-2">
+                <ul className="w-full h-full text-sm sm:text-base text-[#8BA4D0] text-left list-disc list-outside space-y-2">
                   {data.description.map((point, index) => (
                     <li key={index}>{point}</li>
                   ))}

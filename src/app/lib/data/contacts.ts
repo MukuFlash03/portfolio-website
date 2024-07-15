@@ -1,6 +1,5 @@
 import contactLogos from "@/app/assets/contact";
-
-import Contact from "@/app/lib/types/contact";
+import { Contact } from "@/app/lib/types/contact";
 
 const contactsData: Contact[] = [
   { name: 'LinkedIn', logo: contactLogos.linkedin, url: 'https://www.linkedin.com/in/mukulm03', width: 55, height: 55 },

@@ -1,4 +1,4 @@
-import Experience from "@/app/lib/types/experience";
+import { Experience } from "@/app/lib/types/experience";
 
 const experienceData: Experience[] = [
   {
@@ -14,6 +14,7 @@ const experienceData: Experience[] = [
       'Diagnosed and remedied model build pipeline failures in staging and production environments using Cloudwatch logs.',
       'Automated deployment DevOps process by restructuring CI/CD workflows using GitHub Actions.',
     ],
+    url: 'https://www.nrel.gov/',
   },
   {
     company: 'Oracle Financial Services Software ',
@@ -29,6 +30,7 @@ const experienceData: Experience[] = [
       'Generated PL/SQL scripts for data manipulation and validation to automate manual tasks for filtering source data that helped reduce execution times by 20% while generating end-user reports containing customer data for over 6 months.',
       'Documented technical designs and deployed code packages across environments via WinSCP/PuTTY client-server apps.',
     ],
+    url: 'https://en.wikipedia.org/wiki/Oracle_Financial_Services_Software',
   },
   {
     company: 'Inter-University Accelerator Centre (IUAC) ',
@@ -43,6 +45,7 @@ const experienceData: Experience[] = [
       'Designed software modules for ARM Cortex-M3 embedded server sensor device to measure subzero temperatures.',
       'Troubleshooted bugs and optimized the system to handle real-time sensor data via RPC transfer protocols.',
     ],
+    url: 'https://www.iuac.res.in/'
   },
   {
     company: 'College of Engineering Pune (COEP)',
@@ -57,6 +60,7 @@ const experienceData: Experience[] = [
       'Successfully modeled discrete mathematical Rough Set Theory concepts for Sensor Data Mining using Python.',
       'Designed custom-built library to process 65,536 objects in 2 minutes with accuracy of 95% using linear regression.',
     ],
+    url: 'https://www.coep.org.in/'
   },
 ];
 

@@ -6,4 +6,5 @@ export interface Experience {
     location: string;
     skills: string[];
     description: string[];
+    url: string;
 }

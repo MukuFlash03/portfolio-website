@@ -13,7 +13,7 @@ const SkillCard: React.FC<{
     return (
       <div key={id} className="w-full min-h-[126px] flex bg-[#182546] mb-5 py-[13px] rounded-lg">
         <div className="w-[195px] h-[94px] flex items-center justify-center px-[27px]">
-          <h3 className="text-[18px] font-semibold text-[#E3E3E3] text-center">{category}</h3>
+          <h3 className="text-sm sm:text-lg font-semibold text-[#E3E3E3] text-center">{category}</h3>
         </div>
         <div className="flex-grow flex flex-wrap gap-x-[45px] gap-y-4 px-5">
           {skills.map((skill, skillIndex) => (
@@ -27,7 +27,7 @@ const SkillCard: React.FC<{
                 />
               </div>
               <div className="w-[52px] h-[20px] flex items-center justify-center">
-                <span className="text-[14px] leading-[20px] font-semibold tracking-[0.05em] text-center text-white">
+                <span className="text-xs sm:text-sm leading-[20px] font-semibold tracking-[0.05em] text-center text-white">
                   {skill.name}
                 </span>
               </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Experience } from '@/app/lib/types/experience'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const ExperienceCard: React.FC<{
   key: number,
@@ -12,7 +13,14 @@ const ExperienceCard: React.FC<{
     return (
       <div key={id} className="w-full min-h-[216px] flex bg-[#182546] px-5 rounded-[10px]">
         <div className="flex-grow w-[70%] h-full flex flex-col items-start space-y-2.5 py-5 pr-8">
-          <h3 className="text-[16px] font-medium text-[#57D7D5]">{experience.title} @ {experience.company}</h3>
+          <h3 className="text-[16px] font-medium text-[#57D7D5] space-x-2">
+            {experience.title}
+            <span className='text-[#E3E3E3]'> @ </span>
+            {experience.company}
+            <a href={experience.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block">
+              <FaExternalLinkAlt className="text-white text-base hover:text-blue-400 transition-colors duration-300" />
+            </a>
+          </h3>
           <p className="text-[15px] font-medium text-[#B7BEBE]">{experience.role}</p>
           <ul className="text-[14px] text-[#879BBD] list-disc pl-5">
             {experience.description.map((sentence, index) => (
