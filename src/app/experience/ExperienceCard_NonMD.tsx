@@ -35,7 +35,7 @@ const ExperienceCard_NonMD: React.FC<{
           </ul>
         </div>
         <div className="w-full flex flex-col items-center py-4 p-1.25 mt-2.5 md:mt-3.5">
-          <div className="flex flex-wrap gap-2 mt-2 md:mt-4">
+          <div className="flex flex-wrap justify-center gap-2 mt-2 md:mt-4">
             {experience.skills.map((skill, skillIndex) => (
               <span key={skillIndex} className="bg-[#1B344D] text-[#57D7D5] px-2 md:px-2 py-1 rounded-full text-xs md:text-sm">
                 {skill}

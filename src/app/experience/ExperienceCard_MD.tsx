@@ -12,7 +12,7 @@ const ExperienceCard_MD: React.FC<{
   experience
 }) => {
     return (
-      <div key={id} className="w-full min-h-[216px] flex bg-[#182546] px-2 md:px-5 rounded-[8px] md:rounded-[10px]">
+      <div key={id} className="w-full min-h-[216px] flex bg-[#182546] pb-4 px-2 md:px-5 rounded-[8px] md:rounded-[10px]">
         <div className="flex-grow w-[70%] h-full flex flex-col items-start space-y-2.5 py-1 md:py-2 pr-2 md:pr-8">
           <h3 className="text-sm md:text-base font-medium text-[#57D7D5] space-x-2">
             {experience.title}
@@ -29,7 +29,7 @@ const ExperienceCard_MD: React.FC<{
             ))}
           </ul>
         </div>
-        <div className="w-[30%] h-[187px] flex flex-col items-start p-1.25 mt-2.5 md:mt-3.5">
+        <div className="w-[30%] h-[187px] flex flex-col items-start py-2 md:py-3 mt-2.5 md:mt-3.5">
           <div className="flex flex-row justify-between items-center w-full">
             <p className="text-xs md:text-sm text-[#8BA4D0]">{experience.location}</p>
             <p className="text-xs md:text-sm text-[#8BA4D0]">{experience.duration}</p>
