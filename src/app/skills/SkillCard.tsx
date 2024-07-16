@@ -22,7 +22,7 @@ const SkillCard: React.FC<{
                 <Image
                   src={skill.logo}
                   alt={`${skill.name} logo`}
-                  className="w-2 h-2 md:w-6 md:h-6"
+                  className="w-5 h-5 md:w-12 md:h-12"
                 />
               </div>
               <div className="w-full md:w-[52px] h-[20px] flex items-center justify-center">
