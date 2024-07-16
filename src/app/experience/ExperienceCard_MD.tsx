@@ -13,7 +13,7 @@ const ExperienceCard_MD: React.FC<{
 }) => {
     return (
       <div key={id} className="w-full min-h-[216px] flex bg-[#182546] px-2 md:px-5 rounded-[8px] md:rounded-[10px]">
-        <div className="flex-grow w-[70%] h-full flex flex-col items-start space-y-2.5 py-1 md:py-5 pr-2 md:pr-8">
+        <div className="flex-grow w-[70%] h-full flex flex-col items-start space-y-2.5 py-1 md:py-2 pr-2 md:pr-8">
           <h3 className="text-sm md:text-base font-medium text-[#57D7D5] space-x-2">
             {experience.title}
             <span className='text-[#E3E3E3]'> @ </span>
