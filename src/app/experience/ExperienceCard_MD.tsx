@@ -3,7 +3,7 @@ import { Experience } from '@/app/lib/types/experience'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import Link from 'next/link'
 
-const ExperienceCard: React.FC<{
+const ExperienceCard_MD: React.FC<{
   key: number,
   id: number,
   experience: Experience
@@ -46,4 +46,4 @@ const ExperienceCard: React.FC<{
     )
   }
 
-export default ExperienceCard
+export default ExperienceCard_MD
