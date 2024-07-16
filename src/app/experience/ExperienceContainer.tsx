@@ -1,6 +1,6 @@
 import React from 'react'
-import ExperienceCard_MD from './ExperienceCard_MD'
-import ExperienceCard_NonMD from './ExperienceCard_NonMD'
+import ExperienceCard_MD from './ExperienceCard_NonMD'
+import ExperienceCard_NonMD from './ExperienceCard_MD'
 import { Experience } from '@/app/lib/types/experience'
 
 const ExperienceContainer: React.FC<{

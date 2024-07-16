@@ -14,14 +14,14 @@ const Avatar: React.FC<{
             width={624}
             height={302}
             alt="Hero Image"
-            className="hidden md:w-full md:h-full md:object-contain"
+            className="hidden md:block w-full h-full object-contain"
           />
           <Image
             src={src}
             width={280}
             height={450}
             alt="Hero Image"
-            className="md:hidden w-full h-full object-contain"
+            className="block md:hidden w-full h-full object-contain"
           />
         </div>
       </div>
