@@ -1,5 +1,6 @@
 import React from 'react'
-import SkillCard from './SkillCard'
+import SkillCard_MD from './SkillCard_MD'
+import SkillCard_NonMD from './SkillCard_NonMD'
 import { SkillCategory } from '@/app/lib/types/skills'
 
 const SkillContainer: React.FC<{
@@ -10,11 +11,19 @@ const SkillContainer: React.FC<{
     return (
       <div className="w-full flex-grow px-0.5 md:px-[10px]">
         {skillsData.map((skillset, index) => (
-          <SkillCard
-            key={index}
-            id={index}
-            skillset={skillset}
-          />
+          <div key={index} className="w-full">
+            <div className="hidden md:block">
+              <SkillCard_MD key={index} id={index} skillset={skillset} />
+            </div>
+            <div className="md:hidden">
+              <SkillCard_NonMD key={index} id={index} skillset={skillset} />
+            </div>
+          </div>
+          // <SkillCard_MD
+          //   key={index}
+          //   id={index}
+          //   skillset={skillset}
+          // />
         ))}
       </div>
     )

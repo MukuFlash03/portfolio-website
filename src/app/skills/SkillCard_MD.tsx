@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { SkillCategory } from '@/app/lib/types/skills';
 
-const SkillCard: React.FC<{
+const SkillCard_MD: React.FC<{
   key: number;
   id: number;
   skillset: SkillCategory
@@ -37,4 +37,4 @@ const SkillCard: React.FC<{
     )
   }
 
-export default SkillCard
+export default SkillCard_MD
