@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mukul C. Mahadik",
   description: "Personal Portfolio website for Mukul C. Mahadik",
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/shortcut-icon.png',
+    apple: '/apple-icon.png',
+  }
 };
 
 export default function RootLayout({
