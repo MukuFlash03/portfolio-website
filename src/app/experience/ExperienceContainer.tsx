@@ -8,7 +8,7 @@ const ExperienceContainer: React.FC<{
   experienceData,
 }) => {
     return (
-      <div className="w-full flex flex-col items-center space-y-2.5 px-[10px] py-2.5">
+      <div className="w-full flex flex-col items-center space-y-2.5 px-[2px] md:px-[10px] py-1 md:py-2.5">
         {experienceData.map((experience, index) => (
           <ExperienceCard
             key={index}

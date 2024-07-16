@@ -3,7 +3,7 @@ import Navbar from '@/app/common/Navbar'
 
 const Header: React.FC = () => {
   return (
-    <header className="h-[122px] w-full">
+    <header className="h-[100px] md:h-[122px] w-full">
       <Navbar />
     </header>
   )

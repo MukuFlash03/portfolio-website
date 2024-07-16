@@ -9,8 +9,8 @@ const ProjectContainer: React.FC<{
   projectsData,
 }) => {
     return (
-      <div className="w-full h-[420px] px-[10px] py-[10px] overflow-x-auto">
-        <div className="flex space-x-10">
+      <div className="w-full md:h-[420px] px-0.5 md:px-2.5 py-0.5 md:py-2.5 overflow-x-auto">
+        <div className="flex space-x-2 md:space-x-10">
           {projectsData.map((project, index) => (
             <ProjectCard
               key={index}

@@ -8,7 +8,7 @@ const SkillContainer: React.FC<{
   skillsData,
 }) => {
     return (
-      <div className="w-full flex-grow px-[10px]">
+      <div className="w-full flex-grow px-0.5 md:px-[10px]">
         {skillsData.map((skillset, index) => (
           <SkillCard
             key={index}
