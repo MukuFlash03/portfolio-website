@@ -15,7 +15,7 @@ const projectData: Project[] = [
     info: 'AI-powered online shopping assistant using image input, LLMs, and automated browser actions',
     tags: ['Python', 'Claude Opus LLM', 'MultiOn', 'RAG Chain', 'GenAI'],
     url: 'https://github.com/MukuFlash03/multion-photo-op',
-    image: '/projects/multiOnautoBuy.png'
+    image: '/projects/multionautoBuy.jpg'
   },
   {
     title: 'YouTube Conversationalist',
