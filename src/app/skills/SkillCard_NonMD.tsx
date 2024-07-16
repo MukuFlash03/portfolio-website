@@ -15,17 +15,17 @@ const SkillCard_NonMD: React.FC<{
         <div className="w-full md:w-[195px] h-auto py-2 md:py-4 flex items-center justify-center px-2 md:px-[27px]">
           <h3 className="text-sm md:text-lg font-semibold text-[#E3E3E3] text-center">{category}</h3>
         </div>
-        <div className="flex-grow flex flex-wrap gap-x-2 md:gap-x-[45px] gap-y-0.5 md:gap-y-4 px-1 md:px-5">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-4 px-1 md:px-5">
           {skills.map((skill, skillIndex) => (
-            <div key={skillIndex} className="w-full md:w-[58px] h-[100px] flex flex-wrap items-center">
-              <div className="w-full md:w-[58px] h-[80px] flex items-center justify-center p-1 md:p-[12px]">
+            <div key={skillIndex} className="flex flex-col items-center justify-center">
+              <div className="w-full h-[60px] md:h-[80px] flex items-center justify-center p-1 md:p-[12px]">
                 <Image
                   src={skill.logo}
                   alt={`${skill.name} logo`}
-                  className="w-6 h-6 md:w-12 md:h-12"
+                  className="w-8 h-8 md:w-12 md:h-12"
                 />
               </div>
-              <div className="w-full md:w-[52px] h-[20px] flex items-center justify-center">
+              <div className="w-full h-[20px] flex items-center justify-center">
                 <span className="text-xs md:text-sm leading-[20px] font-medium md:font-semibold tracking-[0.05em] text-center text-white">
                   {skill.name}
                 </span>
