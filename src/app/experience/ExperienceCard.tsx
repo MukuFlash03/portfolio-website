@@ -23,7 +23,7 @@ const ExperienceCard: React.FC<{
             </Link>
           </h3>
           <p className="text-xs md:text-[14px] font-medium text-[#B7BEBE]">{experience.role}</p>
-          <ul className="text-xs md:text-[14px] text-[#879BBD] list-disc pl-5">
+          <ul className="text-xs md:text-[14px] space-y-1.5 text-[#879BBD] list-disc pl-5">
             {experience.description.map((sentence, index) => (
               <li key={index}>{sentence}</li>
             ))}
