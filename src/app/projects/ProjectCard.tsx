@@ -5,28 +5,11 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from "next/link";
 
 const ProjectCard: React.FC<{
-  index: number,
   project: Project,
 }> = ({
-  index,
   project,
 }) => {
     return (
-      // Text placement correct without responsive design. 
-      // Uncommented in use code has responsive but text placements are messed up for overlay cards.
-      // <div key={index} className="flex-shrink-0 w-[480px] h-[400px] flex flex-col items-center space-y-5 p-10 relative group overflow-hidden">
-      //   <h3 className="absolute top-5 left-0 right-0 text-center text-base md:text-xl leading-[40px] font-semibold text-[#E3E3E3] z-10 group-hover:opacity-0 transition-opacity duration-300">
-      //     {project.title}
-      //   </h3>
-      //   <div className="w-[440px] h-[300px] relative">
-      //     <Image
-      //       src={project.image}
-      //       layout="fill"
-      //       objectFit="cover"
-      //       alt={project.title}
-      //     />
-      //   </div>
-      // <div className="flex-shrink-0 w-full md:w-[480px] h-[300px] md:h-[400px] flex flex-col items-center space-y-5 p-10 relative group overflow-hidden">
       <div className="flex-shrink-0 w-full md:w-[480px] h-[300px] md:h-[400px] flex flex-col items-center space-y-5 p-10 relative group overflow-hidden">
         <h3 className="absolute top-5 left-0 right-0 text-center text-base md:text-xl leading-[30px] md:leading-[40px] font-semibold text-[#E3E3E3] z-10 group-hover:opacity-0 transition-opacity duration-300">
           {project.title}
@@ -40,7 +23,6 @@ const ProjectCard: React.FC<{
           />
         </div>
         <div className="absolute inset-0 top-0 bottom-2 md:bottom-5 rounded-[8px] md:rounded-[10px] bg-black bg-opacity-85 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          {/* Overlay content */}
           <div className="text-white text-center py-1 md:p-4 space-y-2 md:space-y-4">
             <h3 className="absolute top-2 md:top-8 left-0 right-0 text-center text-base md:text-xl leading-[40px] md:leading-[30px] font-medium md:font-semibold">
               {project.title}

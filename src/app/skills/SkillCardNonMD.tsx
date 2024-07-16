@@ -1,23 +1,21 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid'
 import Image from 'next/image'
 import { SkillCategory } from '@/app/lib/types/skills';
 
-const SkillCard_NonMD: React.FC<{
-  key: number;
-  id: number;
+const SkillCardNonMD: React.FC<{
   skillset: SkillCategory
 }> = ({
-  id,
   skillset: { category, skills },
 }) => {
     return (
-      <div key={id} className="w-full min-h-[126px] flex flex-col space-y-1 md:space-y-2 bg-[#182546] mb-1 md:mb-5 py-2 md:py-[13px] rounded-md md:rounded-lg">
+      <div key={uuidv4()} className="w-full min-h-[126px] flex flex-col space-y-1 md:space-y-2 bg-[#182546] mb-1 md:mb-5 py-2 md:py-[13px] rounded-md md:rounded-lg">
         <div className="w-full md:w-[195px] h-auto py-2 md:py-4 flex items-center justify-center px-2 md:px-[27px]">
           <h3 className="text-sm md:text-lg font-semibold text-[#E3E3E3] text-center">{category}</h3>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-4 gap-2 md:gap-4 px-1 md:px-5">
-          {skills.map((skill, skillIndex) => (
-            <div key={skillIndex} className="flex flex-col items-center justify-center">
+          {skills.map((skill) => (
+            <div key={uuidv4()} className="flex flex-col items-center justify-center">
               <div className="w-full h-[60px] md:h-[80px] flex items-center justify-center p-1 md:p-[12px]">
                 <Image
                   src={skill.logo}
@@ -37,4 +35,4 @@ const SkillCard_NonMD: React.FC<{
     )
   }
 
-export default SkillCard_NonMD
+export default SkillCardNonMD

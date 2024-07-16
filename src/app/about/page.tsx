@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from '@/app/common/Header'
 import Hero from '@/app/about/Hero'
 import Footer from '@/app/common/Footer'

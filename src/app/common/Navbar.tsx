@@ -1,9 +1,8 @@
 'use client'
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import logoFlash from '@/app/assets/flash.svg'
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Navbar: React.FC = () => {

@@ -1,12 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 import avatar from '@/app/assets/avatar_1.svg'
 import Contact from './Contact'
 import Intro from './Intro'
 import Button from '@/app/common/Button'
 import introData from "@/app/lib/data/intro";
 import Avatar from './Avatar'
-import { PiSoccerBallFill } from "react-icons/pi";
 import Link from 'next/link'
 
 const Hero: React.FC = () => {
