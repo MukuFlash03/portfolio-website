@@ -15,15 +15,10 @@ const SkillContainer: React.FC<{
             <div className="hidden md:block">
               <SkillCard_MD key={index} id={index} skillset={skillset} />
             </div>
-            <div className="md:hidden">
+            <div className="block md:hidden">
               <SkillCard_NonMD key={index} id={index} skillset={skillset} />
             </div>
           </div>
-          // <SkillCard_MD
-          //   key={index}
-          //   id={index}
-          //   skillset={skillset}
-          // />
         ))}
       </div>
     )
