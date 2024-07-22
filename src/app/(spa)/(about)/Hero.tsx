@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutData from '@/app/lib/data/about'
-import About from './About'
+import TextContent from '@/app/(spa)/(about)/TextContent'
 import Title from '@/app/common/Title'
 
 const Hero: React.FC = () => {
@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div className="w-full flex-grow flex justify-center items-center">
           <div className="w-full h-full flex flex-col justify-center items-start space-y-2 md:space-y-4 px-2 md:px-5 py-4 md:py-10">
             <Title title="Get To Know Me 👨🏻‍💻" />
-            <About aboutData={aboutData} />
+            <TextContent aboutData={aboutData} />
           </div>
         </div>
       </div>

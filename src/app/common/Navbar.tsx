@@ -9,23 +9,23 @@ const Navbar: React.FC = () => {
   const navItems = {
     home: {
       label: 'Home',
-      link: '/',
+      link: '#home',
     },
     about: {
       label: 'About',
-      link: '/about',
-    },
-    experience: {
-      label: 'Experience',
-      link: '/experience',
+      link: '#about',
     },
     projects: {
       label: 'Projects',
-      link: '/projects',
+      link: '#projects',
+    },
+    experience: {
+      label: 'Experience',
+      link: '#experience',
     },
     skills: {
       label: 'Skills',
-      link: '/skills',
+      link: '#skills',
     }
   }
 
