@@ -10,7 +10,15 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
-    title: 'Self Buy AI Agent',
+    title: 'MultiOn - Easy ApplAI',
+    date: 'JULY 2024',
+    info: 'Multimodal Voice AI assistant for automatically applying to saved jobs',
+    tags: ['Python', 'MultiOn', 'AgentOps', 'Groq', 'Wordware', 'Deepgram', 'ElevenLabs', 'GenAI'],
+    url: 'https://github.com/MukuFlash03/easy-applAI',
+    image: '/projects/multionautoApply.jpg'
+  },
+  {
+    title: 'MultiOn - Self Buy AI Agent',
     date: 'JUNE 2024',
     info: 'AI-powered online shopping assistant using image input, LLMs, and automated browser actions',
     tags: ['Python', 'Claude Opus LLM', 'MultiOn', 'RAG Chain', 'GenAI'],
