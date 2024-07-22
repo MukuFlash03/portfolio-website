@@ -1,8 +1,8 @@
 import React from "react";
 import { v4 as uuidv4 } from 'uuid';
-import { AboutSection } from "../lib/types/about";
+import { AboutSection } from "@/app/lib/types/about";
 
-const About: React.FC<{
+const TextContent: React.FC<{
   aboutData: AboutSection[]
 }> = ({
   aboutData,
@@ -29,4 +29,4 @@ const About: React.FC<{
     );
   };
 
-export default About;
+export default TextContent;
