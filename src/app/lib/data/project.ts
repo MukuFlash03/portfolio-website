@@ -21,7 +21,7 @@ const projectData: Project[] = [
     title: 'MultiOn - Self Buy AI Agent',
     date: 'JUNE 2024',
     info: 'AI-powered online shopping assistant using image input, LLMs, and automated browser actions',
-    tags: ['Python', 'Claude Opus LLM', 'MultiOn', 'RAG Chain', 'GenAI'],
+    tags: ['Python', 'Claude Opus LLM', 'MultiOn', 'GenAI'],
     url: 'https://github.com/MukuFlash03/multion-photo-op',
     image: '/projects/multionautoBuy.jpg'
   },
