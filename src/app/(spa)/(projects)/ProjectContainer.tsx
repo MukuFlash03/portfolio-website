@@ -10,10 +10,11 @@ const ProjectContainer: React.FC<{
   projectsData,
 }) => {
     return (
-      <div className="w-full items-center grid grid-flow-dense grid-cols-3 grid-rows-3 gap-10 md:h-[420px] space-y-2.5 px-[2px] md:px-[10px] py-5 md:py-2.5">
+      // <div className="w-full items-center grid grid-flow-dense grid-cols-3 grid-rows-3 gap-10 md:h-[420px] space-y-2.5 px-[2px] md:px-[10px] py-5 md:py-2.5">
+      <div className="w-full justify-items-center grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-3 gap-2">
         {/* <div className="flex space-x-2 md:space-x-10"> */}
         {projectsData.map((project) => (
-          <div key={uuidv4()} className="w-full">
+          <div key={uuidv4()} className="w-full justify-self-center">
             <div className="hidden md:block">
               <ProjectCardMD
                 key={uuidv4()}

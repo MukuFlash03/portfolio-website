@@ -10,8 +10,8 @@ const ProjectCardMD: React.FC<{
   project,
 }) => {
     return (
-      <div className="flex-shrink-0 min-h-[216px] w-full md:w-[480px] h-[300px] md:h-[400px] flex flex-col items-center space-y-5 p-10 relative group overflow-hidden">
-        <h3 className="absolute top-5 left-0 right-0 text-center text-base md:text-xl leading-[30px] md:leading-[40px] font-semibold text-[#E3E3E3] z-10 group-hover:opacity-0 transition-opacity duration-300">
+      <div className="flex-shrink-0 w-full flex flex-col items-center space-y-5 p-10 relative group overflow-hidden">
+        <h3 className="w-full md:w-[440px] justify-center absolute top-5 text-center text-base md:text-xl leading-[30px] md:leading-[40px] font-semibold text-[#E3E3E3] z-10 group-hover:opacity-0 transition-opacity duration-300">
           {project.title}
         </h3>
         <div className="w-full md:w-[440px] h-[200px] md:h-[300px] relative">
@@ -22,8 +22,8 @@ const ProjectCardMD: React.FC<{
             alt={project.title}
           />
         </div>
-        <div className="absolute inset-0 top-0 bottom-2 md:bottom-5 rounded-[8px] md:rounded-[10px] bg-black bg-opacity-85 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <div className="text-white text-center py-1 md:p-4 space-y-2 md:space-y-4">
+        <div className="absolute inset-0 rounded-[8px] md:rounded-[10px] bg-black bg-opacity-85 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div className="text-white w-full md:w-[440px] text-center py-1 md:p-4 space-y-2 md:space-y-4">
             <h3 className="absolute top-2 md:top-8 left-0 right-0 text-center text-base md:text-xl leading-[40px] md:leading-[30px] font-medium md:font-semibold">
               {project.title}
             </h3>
