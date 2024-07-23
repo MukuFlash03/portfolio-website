@@ -4,7 +4,7 @@ import { Project } from '@/app/lib/types/project';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from "next/link";
 
-const ProjectCard: React.FC<{
+const ProjectCardNonMD: React.FC<{
   project: Project,
 }> = ({
   project,
@@ -41,4 +41,4 @@ const ProjectCard: React.FC<{
     );
   };
 
-export default ProjectCard;
+export default ProjectCardNonMD;

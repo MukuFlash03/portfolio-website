@@ -5,7 +5,7 @@ import Footer from '@/app/common/Footer'
 const Projects: React.FC = () => {
   return (
     <main id="projects" className="flex flex-col min-h-screen">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       {/* <Footer /> */}
     </main>
