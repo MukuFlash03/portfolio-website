@@ -7,7 +7,7 @@ const Skills: React.FC = () => {
     <main id="skills" className="flex flex-col min-h-screen">
       <Header />
       <Hero />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
