@@ -10,6 +10,14 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'Voice AI Interviewer Agent',
+    date: 'AUGUST 2024',
+    info: 'Multimodal Voice AI assistant for conducting interviews and evaluating candidates',
+    tags: ['TypeScript', 'NextJS', 'Groq', 'Supabase', 'Vapi', 'GenAI'],
+    url: 'https://github.com/MukuFlash03/ai-agent-interview/',
+    image: '/projects/aiInterviewer.png'
+  },
+  {
     title: 'MultiOn - Easy ApplAI',
     date: 'JULY 2024',
     info: 'Multimodal Voice AI assistant for automatically applying to saved jobs',
