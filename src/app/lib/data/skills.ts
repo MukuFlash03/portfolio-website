@@ -42,6 +42,7 @@ const skillsData: SkillCategory[] = [
       { name: 'MongoDB', logo: databaseLogos.mongodb },
       { name: 'Oracle', logo: databaseLogos.oracle },
       { name: 'DynamoDB', logo: databaseLogos.dynamodb },
+      { name: 'Supabase', logo: databaseLogos.supabase },
     ],
   },
   {
