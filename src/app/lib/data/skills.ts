@@ -21,6 +21,7 @@ const skillsData: SkillCategory[] = [
       { name: 'TypeScript', logo: languageLogos.typescript },
       { name: 'SQL', logo: languageLogos.sql },
       { name: 'YAML', logo: languageLogos.yaml },
+      { name: 'Go', logo: languageLogos.golang },
     ],
   },
   {
@@ -32,7 +33,7 @@ const skillsData: SkillCategory[] = [
       { name: 'Node.js', logo: frameworkLogos.node },
       { name: 'Next.js', logo: frameworkLogos.next },
       { name: 'Flask', logo: frameworkLogos.flask },
-      // { name: 'Spring Boot', logo: frameworkLogos.spring },
+      { name: 'Spring Boot', logo: frameworkLogos.spring },
     ],
   },
   {

@@ -15,7 +15,7 @@ const aboutData: AboutSection[] = [
       'From Java, Python, C++, TypeScript to Express and Flask, I thrive in diverse tech environments.',
       'Experienced in handling large codebases, completing feature requests, and automating deployment processes.',
       'Proficient in handling databases like Oracle SQL and MongoDB, and adept at architecting REST APIs, Microservices.',
-      'Comfortable navigating Cloud platforms such as AWS and Kubernetes, and well-versed in developer tools like Git, Docker.',
+      'Comfortable navigating Cloud platforms such as AWS, and well-versed in developer tools like Git, Docker.',
       'Exploring the world of full-stack development and integrating RAG chain LLMs for building Generative AI applications.',
     ],
   },
