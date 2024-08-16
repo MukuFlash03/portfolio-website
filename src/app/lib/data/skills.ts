@@ -34,6 +34,7 @@ const skillsData: SkillCategory[] = [
       { name: 'Next.js', logo: frameworkLogos.next },
       { name: 'Flask', logo: frameworkLogos.flask },
       { name: 'Spring Boot', logo: frameworkLogos.spring },
+      { name: 'GraphQL', logo: frameworkLogos.graphql },
     ],
   },
   {
@@ -44,6 +45,7 @@ const skillsData: SkillCategory[] = [
       { name: 'Oracle', logo: databaseLogos.oracle },
       { name: 'DynamoDB', logo: databaseLogos.dynamodb },
       { name: 'Supabase', logo: databaseLogos.supabase },
+      { name: 'Prisma', logo: databaseLogos.prisma },
     ],
   },
   {
