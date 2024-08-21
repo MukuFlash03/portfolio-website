@@ -10,6 +10,30 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'Classic To-Do List',
+    date: 'AUGUST 2024',
+    info: 'Full-stack to-do list web application that implements CRUD operations',
+    tags: ['React', 'Go', 'GraphQL', 'AWS (EC2, Amplify, RDS)', 'Postgres'],
+    url: 'https://github.com/MukuFlash03/crud-react-go-graphql-aws',
+    image: '/projects/crudTasksGoGQL.png'
+  },
+  {
+    title: 'Go-GQL Backend API',
+    date: 'AUGUST 2024',
+    info: 'Backend API for Hackernews clone with link creation and user authentication',
+    tags: ['Go', 'GraphQL', 'Postgres', 'Docker', 'JWT', 'Gqlgen'],
+    url: 'https://github.com/MukuFlash03/tutorial-go-graphql',
+    image: '/projects/goGqlBackend.png'
+  },
+  {
+    title: 'Hackernews Clone',
+    date: 'AUGUST 2024',
+    info: 'Link-sharing platform with real-time updates and voting.',
+    tags: ['React', 'GraphQL', 'Apollo Client/Server', 'Prisma ORM'],
+    url: 'https://github.com/MukuFlash03/tutorial-react-apollo-graphql',
+    image: '/projects/hackernewsGQL.png'
+  },
+  {
     title: 'Voice AI Interviewer Agent',
     date: 'AUGUST 2024',
     info: 'Multimodal Voice AI assistant for conducting interviews and evaluating candidates',
