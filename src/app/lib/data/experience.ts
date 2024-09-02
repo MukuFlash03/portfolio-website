@@ -3,7 +3,7 @@ import { Experience } from "@/app/lib/types/experience";
 const experienceData: Experience[] = [
   {
     company: 'National Renewable Energy Laboratory (NREL)',
-    title: 'Software Engineer Intern',
+    title: 'Software Development Engineer',
     role: 'Python Developer, DevOps Engineer, Site Reliability Engineer',
     duration: 'AUG 2023 - JUL 2024',
     location: "Golden, CO",
@@ -18,7 +18,7 @@ const experienceData: Experience[] = [
   },
   {
     company: 'Oracle Financial Services Software ',
-    title: 'Associate Technical Consultant',
+    title: 'Software Development Engineer',
     role: 'PL/SQL Developer',
     duration: 'JUL 2021 - MAY 2022',
     location: "Bangalore, India",
