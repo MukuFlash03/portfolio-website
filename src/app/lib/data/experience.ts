@@ -10,9 +10,10 @@ const experienceData: Experience[] = [
     skills: ['Python', 'Docker', 'MongoDB', 'Git', 'GitHub Actions', 'AWS Cloudwatch', 'AWS ECR', 'AWS Inspector'],
     description: [
       'Refined data processing in model build and analysis pipeline in a distributed system for transforming raw data to inferred values followed by end-to-end manual and automated unit testing and integration tests.',
-      'Did scaling and performance optimization to address scalability requirements by optimizing time complexity.',
-      'Diagnosed and remedied model build pipeline failures in staging and production environments using Cloudwatch logs.',
-      'Automated deployment DevOps process by restructuring CI/CD workflows using GitHub Actions.',
+      'Optimized system scalability through time complexity improvements, enhancing overall performance.',
+      'Troubleshot and resolved model build pipeline failures in staging and production environments using CloudWatch logs.',
+      'Streamlined and automated DevOps processes by restructuring CI/CD workflows with GitHub Actions.',
+      'Implemented data export/import functionality for timeseries data purge and restore, improving database efficiency and data lifecycle management.',
     ],
     url: 'https://www.nrel.gov/',
   },
