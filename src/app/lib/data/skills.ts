@@ -64,6 +64,7 @@ const skillsData: SkillCategory[] = [
     skills: [
       { name: 'OpenStack', logo: cloudLogos.openstack },
       { name: 'AWS', logo: cloudLogos.aws },
+      { name: 'Amplify', logo: cloudLogos.amplify },
       { name: 'Cloudwatch', logo: cloudLogos.cloudwatch },
       { name: 'EC2', logo: cloudLogos.ec2 },
       { name: 'ECR', logo: cloudLogos.ecr },
@@ -80,6 +81,9 @@ const skillsData: SkillCategory[] = [
       { name: 'Docker', logo: devOpsLogos.docker },
       { name: 'GitHub', logo: devOpsLogos.github },
       { name: 'GitHub Actions', logo: devOpsLogos.ghActions },
+      { name: 'Kubernetes', logo: devOpsLogos.kubernetes },
+      { name: 'Kafka', logo: devOpsLogos.kafka },
+      { name: 'RabbitMQ', logo: devOpsLogos.rabbitmq },
     ],
   },
   {

@@ -10,7 +10,23 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
-    title: 'Classic To-Do List',
+    title: 'Microservices Video to MP3 Converter',
+    date: 'SEPTEMBER 2024',
+    info: "Distributed system for converting video files to MP3 format using microservices architecture",
+    tags: ["Python", "Docker", "Kubernetes", "RabbitMQ", "MongoDB", "MySQL", "Flask", "JWT"],
+    url: 'https://github.com/MukuFlash03/microservices-video2mp3-converter',
+    image: '/projects/microservicesv2m.png',
+  },
+  {
+    title: 'Kafka Confluent Cloud Pub-Sub',
+    date: 'SEPTEMBER 2024',
+    info: 'Multi-language implementation of Apache Kafka producers and consumers using Confluent Cloud',
+    tags: ['Apache Kafka', 'Confluent Cloud', 'Java', 'Spring Boot', 'Python', 'Go', 'Node.js', 'Docker'],
+    url: 'https://github.com/MukuFlash03/kafka-confluent-tutorial',
+    image: '/projects/kafkaConfluentCloud.png'
+  },
+  {
+    title: 'Classic To-Do List on AWS',
     date: 'AUGUST 2024',
     info: 'Full-stack to-do list web application that implements CRUD operations',
     tags: ['React', 'Go', 'GraphQL', 'AWS (EC2, Amplify, RDS)', 'Postgres'],
