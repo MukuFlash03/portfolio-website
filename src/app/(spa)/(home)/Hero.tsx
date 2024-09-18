@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '@/app/assets/avatar_1.svg'
+import avatar from "@/app/assets/profile_pic.png"
 import Contact from './Contact'
 import Intro from './Intro'
 import Button from '@/app/common/Button'
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
             <Contact />
             <Button label="View Resume" />
           </div>
-          <Avatar src={avatar} />
+          <Avatar src={avatar} width={624} height={302} />
         </div>
         <div className="w-full flex flex-col justify-center items-center py-1 md:py-5 text-xs md:text-base">
           <p className="text-center text-[#E3E3E3]">
