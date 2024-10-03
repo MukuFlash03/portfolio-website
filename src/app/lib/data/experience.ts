@@ -3,7 +3,8 @@ import { Experience } from "@/app/lib/types/experience";
 const experienceData: Experience[] = [
   {
     company: 'National Renewable Energy Laboratory (NREL)',
-    title: 'Software Development Engineer',
+    // title: 'Software Development Engineer',
+    title: 'Software Engineer Intern',
     role: 'Python Developer, DevOps Engineer, Site Reliability Engineer',
     duration: 'AUG 2023 - JUL 2024',
     location: "Golden, CO",

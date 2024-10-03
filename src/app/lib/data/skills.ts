@@ -13,8 +13,8 @@ const skillsData: SkillCategory[] = [
     category: 'Languages',
     skills: [
       { name: 'Python', logo: languageLogos.python },
-      { name: 'C++', logo: languageLogos.cpp },
       { name: 'Java', logo: languageLogos.java },
+      { name: 'C++', logo: languageLogos.cpp },
       { name: 'HTML', logo: languageLogos.html },
       { name: 'CSS', logo: languageLogos.css },
       { name: 'JavaScript', logo: languageLogos.javascript },
@@ -45,7 +45,7 @@ const skillsData: SkillCategory[] = [
       { name: 'Oracle', logo: databaseLogos.oracle },
       { name: 'DynamoDB', logo: databaseLogos.dynamodb },
       { name: 'Supabase', logo: databaseLogos.supabase },
-      { name: 'Prisma', logo: databaseLogos.prisma },
+      // { name: 'Prisma', logo: databaseLogos.prisma },
     ],
   },
   {
@@ -55,8 +55,8 @@ const skillsData: SkillCategory[] = [
       { name: 'OpenAI', logo: genAILogos.openai },
       { name: 'Streamlit', logo: genAILogos.streamlit },
       { name: 'Deepgram', logo: genAILogos.deepgram },
-      { name: 'Langchain', logo: genAILogos.langchain },
-      { name: 'Multion', logo: genAILogos.multion },
+      // { name: 'Langchain', logo: genAILogos.langchain },
+      // { name: 'Multion', logo: genAILogos.multion },
     ],
   },
   {
@@ -64,7 +64,7 @@ const skillsData: SkillCategory[] = [
     skills: [
       { name: 'OpenStack', logo: cloudLogos.openstack },
       { name: 'AWS', logo: cloudLogos.aws },
-      { name: 'Amplify', logo: cloudLogos.amplify },
+      // { name: 'Amplify', logo: cloudLogos.amplify },
       { name: 'Cloudwatch', logo: cloudLogos.cloudwatch },
       { name: 'EC2', logo: cloudLogos.ec2 },
       { name: 'ECR', logo: cloudLogos.ecr },
