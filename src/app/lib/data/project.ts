@@ -10,6 +10,14 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'BookWise AI: Second Brain for Readers',
+    date: 'OCTOBER 2024',
+    info: "Your go-to Second Brain for book readers for Capturing and Organizing notes, annotations from physical books and e-books.",
+    tags: ["React", "TypeScript", "NextJS", "Python", "FastAPI", "Supabase", "Claude 3.5 Sonnet", "E2B CodeInterpreter", "Fireworks AI"],
+    url: 'https://github.com/MukuFlash03/bookwise_ai',
+    image: '/projects/bookwiseAI.jpeg',
+  },
+  {
     title: 'Microservices Video to MP3 Converter',
     date: 'SEPTEMBER 2024',
     info: "Distributed system for converting video files to MP3 format using microservices architecture",
