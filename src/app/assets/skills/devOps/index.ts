@@ -12,8 +12,8 @@ const devOpsLogos: {
   ghActions,
   github,
   kubernetes,
-  kafka,
-  rabbitmq,
+  // kafka,
+  // rabbitmq,
 }
 
 export default devOpsLogos
