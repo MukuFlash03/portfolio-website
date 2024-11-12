@@ -10,6 +10,14 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'Permit Pilot: Turbo Tax for Permits',
+    date: 'NOVEMBER 2024',
+    info: "Simplify the permitting process for users by reducing form completion time and error rates.",
+    tags: ["Python", "Next.js", "Meta Llama 3.2", "Together.ai", "FastAPI"],
+    url: 'https://github.com/MukuFlash03/permitpilot',
+    image: '/projects/permitPilot.png',
+  },
+  {
     title: 'Documentary Film Suite',
     date: 'OCTOBER 2024',
     info: "An easy-to-use cost-effective toolkit for documentary film creators to enable widespread and impactful distribution of large content in the form of microcontent packages.",
