@@ -10,6 +10,14 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'TiaMatrix: Multi-modal Intelligence Feed',
+    date: 'NOVEMBER 2024',
+    info: "Integrates real-time data from several sources and classifies them to analyze dynamic geopolitical events.",
+    tags: ["Python", "FastApi", "Streamlit", "AssemblyAI", "OpenAI", "OpenBabylon", "Restack AI"],
+    url: 'https://github.com/MukuFlash03/defense-tech-audio-analysis',
+    image: '/projects/tiamatrix.png',
+  },
+  {
     title: 'Permit Pilot: Turbo Tax for Permits',
     date: 'NOVEMBER 2024',
     info: "Simplify the permitting process for users by reducing form completion time and error rates.",
@@ -24,6 +32,14 @@ const projectData: Project[] = [
     tags: ["Python", "Streamlit", "AssemblyAI", "Claude 3.5 Sonnet"],
     url: 'https://github.com/MukuFlash03/docu-film-suite',
     image: '/projects/documentaryFilmToolSuite.png',
+  },
+  {
+    title: 'Recruit AI: Connecting Talent and Opportunity',
+    date: 'OCTOBER 2024',
+    info: "Optimize the recruiter screening process using AI agents to represent both recruiters and candidates. ",
+    tags: ["Python", "Next.js", "OpenAI", "Groq", "FastAPI", "Supabase", "Vercel"],
+    url: 'https://github.com/MukuFlash03/recruiter-ai-agent',
+    image: '/projects/recruitAI.png',
   },
   {
     title: 'BookWise AI: Second Brain for Readers',
