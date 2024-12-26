@@ -10,6 +10,22 @@ const projectData: Project[] = [
     image: '/projects/portfolioWebsite.png',
   },
   {
+    title: 'Django E-commerce Platform',
+    date: 'DECEMBER 2024',
+    info: "E-commerce platform with user/guest checkout and dynamic cart management for various product types.",
+    tags: ["Python", "Django", "HTML", "JavaScript", "SQLite", "PayPal SDK"],
+    url: 'https://github.com/MukuFlash03/django-ecommerce-website',
+    image: '/projects/djangoEcommerce.png',
+  },
+  {
+    title: 'Flask ORM CRUD App',
+    date: 'DECEMBER 2024',
+    info: "Flask application demonstrating database operations using SQLAlchemy ORM with a REST API interface.",
+    tags: ["Python", "Flask", "SQLAlchemy", "HTML", "JavaScript"],
+    url: 'https://github.com/MukuFlash03/crud-flask-orm',
+    image: '/projects/flaskSqlAlchemyOrm.png',
+  },
+  {
     title: 'TiaMatrix: Multi-modal Intelligence Feed',
     date: 'NOVEMBER 2024',
     info: "Integrates real-time data from several sources and classifies them to analyze dynamic geopolitical events.",

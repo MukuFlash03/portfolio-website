@@ -4,6 +4,7 @@ import langchain from '@/app/assets/skills/genAI/langchain.svg'
 import multion from '@/app/assets/skills/genAI/multion.svg'
 import openai from '@/app/assets/skills/genAI/openai.svg'
 import streamlit from '@/app/assets/skills/genAI/streamlit.svg'
+import metaLlama from '@/app/assets/skills/genAI/meta_llama.svg'
 
 const genAILogos: {
   [key: string]: string
@@ -14,6 +15,7 @@ const genAILogos: {
   multion,
   openai,
   streamlit,
+  metaLlama,
 }
 
 export default genAILogos

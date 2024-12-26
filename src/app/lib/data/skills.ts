@@ -13,8 +13,8 @@ const skillsData: SkillCategory[] = [
     category: 'Languages',
     skills: [
       { name: 'Python', logo: languageLogos.python },
-      { name: 'C++', logo: languageLogos.cpp },
       { name: 'Java', logo: languageLogos.java },
+      { name: 'C++', logo: languageLogos.cpp },
       { name: 'TypeScript', logo: languageLogos.typescript },
       { name: 'HTML', logo: languageLogos.html },
       { name: 'CSS', logo: languageLogos.css },
@@ -32,6 +32,7 @@ const skillsData: SkillCategory[] = [
       { name: 'React', logo: frameworkLogos.react },
       { name: 'Node.js', logo: frameworkLogos.node },
       { name: 'Next.js', logo: frameworkLogos.next },
+      { name: 'Django', logo: frameworkLogos.django },
       { name: 'Flask', logo: frameworkLogos.flask },
       { name: 'FastAPI', logo: frameworkLogos.fastapi },
       { name: 'Spring Boot', logo: frameworkLogos.spring },
@@ -54,8 +55,9 @@ const skillsData: SkillCategory[] = [
     skills: [
       { name: 'Anthropic', logo: genAILogos.anthropic },
       { name: 'OpenAI', logo: genAILogos.openai },
+      { name: 'Meta Llama', logo: genAILogos.metaLlama },
       { name: 'Streamlit', logo: genAILogos.streamlit },
-      { name: 'Deepgram', logo: genAILogos.deepgram },
+      // { name: 'Deepgram', logo: genAILogos.deepgram },
       // { name: 'Langchain', logo: genAILogos.langchain },
       // { name: 'Multion', logo: genAILogos.multion },
     ],

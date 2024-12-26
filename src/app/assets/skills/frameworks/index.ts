@@ -7,6 +7,7 @@ import node from '@/app/assets/skills/frameworks/node.svg'
 import react from '@/app/assets/skills/frameworks/react.svg'
 import rest from '@/app/assets/skills/frameworks/rest.svg'
 import spring from '@/app/assets/skills/frameworks/spring.svg'
+import django from '@/app/assets/skills/frameworks/django.svg'
 
 const frameworkLogos: {
   [key: string]: string
@@ -20,6 +21,7 @@ const frameworkLogos: {
   react,
   rest,
   spring,
+  django,
 }
 
 export default frameworkLogos
